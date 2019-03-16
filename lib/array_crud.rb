@@ -3,33 +3,33 @@ def create_an_empty_array
 end
 
 def create_an_array
-["red", "orange", "yellow", "green"]  
+rainbow_colors = ["red", "orange", "yellow", "green"]  
 end
 
 def add_element_to_end_of_array(array, element)
-create_an_array << "blue" 
+rainbow_colors << "blue" 
 end
 
 def add_element_to_start_of_array(array, element)
-create_an_array.unshift("rainbow") 
+rainbow_colors.unshift("cloud") 
 end
 
 def remove_element_from_end_of_array(array)
-create_an_array.pop 
+rainbow_colors.pop 
 end
 
 def remove_element_from_start_of_array(array)
-create_an_array.shift 
+rainbow_colors.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
-create_an_array[1]  
+rainbow_colors[1]  
 end
 
 def retrieve_first_element_from_array(array)
-create_an_array[0]  
+rainbow_colors[0]  
 end
 
 def retrieve_last_element_from_array(array)
-create_an_array[-1] 
+rainbow_colors[-1] 
 end
